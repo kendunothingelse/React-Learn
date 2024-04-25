@@ -1,0 +1,39 @@
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+
+    &-card {
+        max-width: 60%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    &-title {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
+        color: rgb(126, 84, 91);
+    }
+
+    &-text {
+        font-family: 'Courier New', Courier, sans-serif;
+        color: rgb(126, 46, 59);
+
+    }
+
+    // &-button{
+    // }
+}
+
+.student {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(73, 8, 38);
+
+    p {
+        margin: 0;
+    }
+}
