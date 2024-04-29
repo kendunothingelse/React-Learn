@@ -1,15 +1,12 @@
 import Card from "./Card"
 import Student from './Student';
-
+import Button from "./Button";
+import ProfilePic from "./ProfilePic";
 function App() {
 
   return (
     <>
-      <Card />
-      <Student name="Ken" age={21} isStudent={true} />
-      <Student name="DawgCheese" age={21} isStudent={true} />
-      <Student name="Howl" age={21} isStudent={false} />
-      <Student name="Hau" age={21} isStudent={true} />
+      <ProfilePic></ProfilePic>
     </>
 
   );
